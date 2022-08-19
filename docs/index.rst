@@ -1,0 +1,27 @@
+Welcome to contact_sam's documentation!
+=======================================
+
+Bottom line up front
+--------------------
+
+If you are here trying to look for my contact information:
+
+- :Name: Samuel Mehalko
+- :Email: samuel.mehalko@ngc.com
+- :Phone: (410)-993-6848
+
+If you are here to read documentation on my python package - continue on.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   install
+   modules
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
