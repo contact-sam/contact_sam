@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
 
-# Used for business card image
-# def name():
-#     return("Samuel Mehalko")
-# def title():
-#     return("Embedded Software Engineer")
-# def company():
-#     return("Northrop Grumman Corporation")
-# def email():
-#     return("samuel.mehalko@ngc.com")
-# def phone():
-#     return("410-993-6848")
-# def site():
-#     return("https://pypi.org/project/contact_sam")
-# def source():
-#     return("https://github.com/contact-sam/contact_sam")
-
 def name():
     """
     Provides my full name.
@@ -63,12 +47,22 @@ def phone():
 
 def site():
     """
+    Provides the url of the associated github pages website.
+    
+    :return: The associated github page's url
+    :rtype: str
+    """
+    return("https://pypi.org/project/contact_sam")
+
+def package():
+    """
     Provides the url of the this package on the Python Package Index (pypi) website.
     
     :return: This package's pypi url
     :rtype: str
     """
     return("https://pypi.org/project/contact_sam")
+
 
 def source():
     """
@@ -87,7 +81,7 @@ def main():
     :rtype: str
     """
     print(f"""
-    Hi my name is {name()}!
+    Hi, my name is {name()}!
     I am an {title()}
     working for {company()}.
     I can be reached via email (preferred) at {email()}
@@ -95,7 +89,7 @@ def main():
 
     The python package used to generate this text can be found at {site()}
     and the source can be found at {source()}
-        """)
+    """)
 
 if __name__ == "__main__":
     main()
